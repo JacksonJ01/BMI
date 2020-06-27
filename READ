@@ -1,27 +1,51 @@
-/*
+----
+
     This program makes use of information of the internet to calculate the BMI of a user.
     In general this calculation can be a bit unreliable. Two people can have the same BMI,
      let's say 26, which is considered overweight. One person may actually be overweight,
       while the other may be more muscular. Naturally muscle weighs more than fat,
        so the body type of the user must be considered.
+----
 
     Information for the general calculation
     - Height
     - Weight
 
+           Imperial                                Metric
+    BMI =  (weight(lbs) / height(in)^2) * 703      (weight(kg) / height(m)^2)
+----
+
     Optional Questions
     - Age(the BMI is catered towards adults because the have stopped growing for the most part)
     - Gender(this doesn't really make a big difference)
     - Waist
-      - Men               <=40
-      - Women             <=35
+      - Men               <=40                                        >=40
+      - Women             <=35                                        >=35
+----
 
     BMI Scaling
     - Underweight         <18.5
     - Normal Weight        18.5 - 24.9
-    - Overweight           25 - 29.9    (Increased Risk)
-    - Obese                30 - 34.9    (High Risk)
-    - Very Obese           35 - 39.9    (Very High Risk)
-    - Extremely Obese     >40           (Extremely High Risk)
+    - Overweight           25 - 29.9    (Increased Risk)              (High Risk)
+    - Obese                30 - 34.9    (High Risk)                   (Very High Risk)
+    - Very Obese           35 - 39.9    (Very High Risk)              (Very High Risk)
+    - Extremely Obese     >40           (Extremely High Risk)         (Extremely High Risk)
+----
 
-*/
+    Optional Heart Disease Risk Questions
+    - Physical Inactivity
+    - Cigarette Smoking
+    - High Consumption of Alcohol
+    - High blood Pressure
+    - High Level of Low Density Lipoprotein("bad") cholesterol
+    - Low Level of High Density Lipoprotein("good") cholesterol
+    - High Level of triglycerides
+    - High Blood Sugar Levels
+    - Family History of Early Heart Disease
+----
+
+    If you are obese or overweight and you have 2 risks then you may have problems in the future
+    Losing 5 - 10 percent of current weight can reduce the risk
+    Some people are overweight but have no risk factors, however they should still follow a healthier diet
+     and get regular exercise to prevent additional weight gain
+----
