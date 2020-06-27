@@ -1,6 +1,7 @@
 ----
 
     This program makes use of information of the internet to calculate the BMI of a user.
+
     In general this calculation can be a bit unreliable. Two people can have the same BMI,
      let's say 26, which is considered overweight. One person may actually be overweight,
       while the other may be more muscular. Naturally muscle weighs more than fat,
